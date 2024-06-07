@@ -28,7 +28,7 @@ export default async function Home({
   if (!res.ok) {
     throw Error("Failed to fetch the data");
   }
-  const results = data.results;
+  const results = data.results.filter((res: any) => !res.adult);
 
   return (
     <div className="">
