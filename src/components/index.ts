@@ -3,6 +3,7 @@ import MenuItem from "./MenuItem";
 import Navbar from "./Navbar";
 import NavbarItem from "./NavbarItem";
 import ThemeToggle from "./ThemeToggle";
-import FetchData from "./FetchData";
+import Card from "./Card";
+import SearchBox from "./SearchBox";
 
-export { Header, Navbar, MenuItem, NavbarItem, ThemeToggle, FetchData };
+export { Header, Navbar, MenuItem, NavbarItem, ThemeToggle, Card, SearchBox };
